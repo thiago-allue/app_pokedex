@@ -1,0 +1,19 @@
+###
+### GET /pokemon
+###
+
+# Request a Pokemon with ID 25
+GET http://localhost:8000/pokemon?id=25
+Accept: application/json
+
+###
+
+# Request a Pokemon with ID 1000 (Pokemon not found)
+GET http://localhost:8000/pokemon?id=1000
+Accept: application/json
+
+###
+
+# Request a Pokemon without providing ID (Bad request)
+GET http://localhost:8000/pokemon
+Accept: application/json
