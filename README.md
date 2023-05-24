@@ -59,7 +59,7 @@ This command will start the backend server and automatically reload it whenever 
 
 [http://localhost:8000](http://localhost:8000)
 
-## Folder Structure
+### Folder Structure
 
 The project structure of the backend is as follows:
 
@@ -67,11 +67,11 @@ The project structure of the backend is as follows:
 - **test_main.http**: Contains the test cases for the API endpoint.
 - **requirements.txt**: Specifies the Python dependencies for the project.
 
-## Customization and Development
+### Customization and Development
 
  If you make any changes to the backend code, the server will automatically reload and reflect the changes.
 
-## Dependencies
+### Dependencies
 
 The backend application has the following main dependencies:
 
