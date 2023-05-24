@@ -116,9 +116,6 @@ The project structure of the frontend is as follows:
 - **public**: Contains the HTML template and static assets.
 - **src**: Contains the source code of the React application.
 - **components**: Contains reusable components used in the UI.
-- **pages**: Contains the main pages of the application.
-- **services**: Contains services for making API requests.
-- **styles**: Contains CSS styles for styling the UI.
 - **App.js**: The entry point of the application.
 - **index.js**: The main file that renders the App component.
 
@@ -126,19 +123,9 @@ The project structure of the frontend is as follows:
 
 - To customize the frontend UI, you can modify the existing components or create new components in the **src/components** directory.
 
-- For styling, you can edit the CSS stylesheets located in the **src/styles** directory.
+- For styling, you can edit the CSS stylesheets located in the **src/App.css**.
 
 - If you make any changes to the frontend code, the development server will automatically reload the application and reflect the changes in the browser.
-
-### Dependencies
-
-The frontend application has the following main dependencies:
-
-- **React**: A JavaScript library for building user interfaces.
-- **React Router**: A routing library for managing navigation in the application.
-- **axios**: A library for making HTTP requests to the backend API.
-- **classnames**: A utility for conditionally joining CSS classnames.
-- **PropTypes**: A library for defining and validating the props of React components.
 
 ## License
 
